@@ -1,4 +1,3 @@
-import react from 'react';
 import CandidateDetails from '../interfaces/Candidate.interface';
 
 interface CandidateCardProps {
