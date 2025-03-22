@@ -47,6 +47,7 @@ const CandidateSearch = () => {
       savedCandidates.push(candidateToAdd);
       localStorage.setItem('savedCandidates', JSON.stringify(savedCandidates));
       setCurrentIndex((prevIndex) => prevIndex + 1);
+      console.log('Candidate added:', candidateToAdd); // adding to troubleshoot
     }
   };
 
